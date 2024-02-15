@@ -1,6 +1,7 @@
 version: '3.3'
 services:
   frontend:
+    container_name: frontend_prod
     image: pattaradanai888/234-deploylab-frontend:latest
     ports:
       - "9999:80"
